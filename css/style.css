@@ -4,7 +4,14 @@
     box-sizing: border-box;
     outline: 0;
     scroll-behavior: smooth;
+    font-family: 'Lato', sans-serif;
 }
+
+/* google fonts
+font-family: 'Lato', sans-serif;
+font-family: 'Lato', sans-serif;
+*/
+/* navbar part css start*/
 .main_nav{
     background-color:rgb(0,84,166);
     width: 100%;
@@ -13,10 +20,14 @@
     z-index: 5;
    
 }
+ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
+    gap: 1rem;
+}
 .navbar_brand {
     margin-left: 40px;
     position: absolute;
     margin-top: 15px;
+    overflow: hidden;
     z-index: 6;
 }
 div#navbarSupportedContent {
@@ -28,9 +39,11 @@ div#navbarSupportedContent {
     font-weight: 600;
 
 }
+/* navbar part css end*/
+/* header part  css start*/
+
 .nav_a:hover{
-    color: white;
-    padding: 3px;
+    color: rgb(230, 230, 230);
 }
 .design{
     border-bottom-right-radius:14rem ;
@@ -47,6 +60,30 @@ div#navbarSupportedContent {
     border-radius: 40px;
     width: 15%;
 }
+.header_contain{
+display: block;
+text-align: center;
+}
+h1.header_heading {
+    background-color: rgba(103, 153, 202, 0.705);
+    padding: 180px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 45px;
+    margin-top: 0px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.who_we_are_header{
+    background-color: #231f20;
+    background-image: url(for_desktop_we_are_09-05-2022_2_copy.png);
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* header part  css start*/
 /*about part css start*/
 .book{
     margin-top: 2.50rem;
@@ -66,6 +103,7 @@ margin-left: 7.50rem;
 /*service part css start*/
 .service_section{
     padding: 6rem;
+    overflow: hidden;
 }
 .service_menu{
     margin-top: 4rem;
@@ -76,14 +114,22 @@ margin-left: 7.50rem;
     text-align: center;
     
 }
-.view_button{
-    margin-top: 4rem;
-    margin-left: 45%;
-    width: 10%;
+.view_button {
+    width: 10rem;
+    margin: 5rem auto;
     font-weight: 600;
-    border: 1px solid black;
+    border: 1px solid rgb(233, 233, 233);
     border-radius: 25px;
-    background-color: rgb(255,218,3) ;
+    background-color: rgb(255,218,3);
+}
+.service_header{
+    background-color: #231f20;
+    background-image: url(for_desktop_we_are_09-05-2022_1\ \(1\).png);
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /*service part css end*/
@@ -106,12 +152,27 @@ margin-left: 7.50rem;
     letter-spacing: .03em;
 }
 /*location part css end*/
+/* media part css start*/
+.media_header{
+    background-color: #231f20;
+    background-image: url(mediaimgblog.jpg);
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.media_card{
+    margin-top: 6rem;
+}
+/* media part css end*/
 /* help part css start */
 .help_content{
     padding-bottom: 10rem;
 }
 
 .help_card{
+    border: 1px solid rgba(39, 100, 162, 0.637);
     position: relative;
    
 }
@@ -125,11 +186,31 @@ margin-left: 7.50rem;
    
     
 }
+.col-md-4.help_gap {
+    padding: 1rem;
+}
+.help_content{
+    align-items: flex-end;
+}
+a.help_icon {
+    color: white;
+    align-items: center;
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    font-size: 50px;
+}
 .card.help_card.text-bg-dark {
     top: -80px;
     border-bottom-right-radius: 30%;
     width: 90%;
    
+}
+ .cards_h5 {
+    border-bottom: 4px solid rgb(255,214,2);
+    padding: 18px 0px;
+    
 }
 .card-img-overlay{
     background-color: rgba(39, 100, 162, 0.637);
@@ -145,7 +226,17 @@ img.card-img {
 }
 /* help part css end */
 /* footer part css start */
-.footer_sectoon{
-   
+
+.footer_section{
+    background-color: rgb(46,46,47) ;
+    box-sizing: border-box;
+}
+.footer_contect, li, a {
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
 }
 /* footer part css end */
