@@ -12,6 +12,9 @@ font-family: 'Lato', sans-serif;
 font-family: 'Lato', sans-serif;
 */
 /* navbar part css start*/
+button.navbar-toggler.collapsed {
+    margin-left: 88%;
+}
 .main_nav{
     background-color:rgb(0,84,166);
     width: 100%;
@@ -103,7 +106,6 @@ margin-left: 7.50rem;
 /*service part css start*/
 .service_section{
     padding: 6rem;
-    overflow: hidden;
 }
 .service_menu{
     margin-top: 4rem;
